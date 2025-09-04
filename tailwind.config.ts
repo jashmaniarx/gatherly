@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'quicksand': ['Quicksand', 'sans-serif'],
+				'nunito': ['Nunito', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +66,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Gatherly Brand Colors
+				'pink-vibrant': 'hsl(var(--pink-vibrant))',
+				'purple-vibrant': 'hsl(var(--purple-vibrant))',
+				'purple-deep': 'hsl(var(--purple-deep))',
+				'purple-dark': 'hsl(var(--purple-dark))',
+				'purple-darker': 'hsl(var(--purple-darker))',
+				'blue-vibrant': 'hsl(var(--blue-vibrant))',
+				'cyan-bright': 'hsl(var(--cyan-bright))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
