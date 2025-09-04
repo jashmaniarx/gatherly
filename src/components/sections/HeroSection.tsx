@@ -34,11 +34,21 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-gradient-primary hover:opacity-90 font-poppins font-semibold text-lg px-8 py-4 h-auto">
+            <Button 
+              size="lg" 
+              variant="default"
+              className="text-lg px-8 py-4 h-auto animate-glow"
+              onClick={() => window.location.href = '#events'}
+            >
               Find Events Now
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="font-poppins font-semibold text-lg px-8 py-4 h-auto border-white/20 text-white hover:bg-white/10">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-lg px-8 py-4 h-auto"
+              onClick={() => window.location.href = '#community'}
+            >
               Host an Event
             </Button>
           </div>

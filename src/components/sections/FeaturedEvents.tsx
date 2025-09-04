@@ -121,7 +121,9 @@ export function FeaturedEvents() {
 
               <Button 
                 size="sm" 
-                className="w-full bg-gradient-secondary hover:opacity-90 font-poppins font-semibold"
+                variant="secondary"
+                className="w-full"
+                onClick={() => window.location.href = `#event-${event.id}`}
               >
                 RSVP Now
               </Button>
@@ -130,7 +132,12 @@ export function FeaturedEvents() {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="font-poppins font-semibold">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="font-poppins font-semibold"
+            onClick={() => window.location.href = '#all-events'}
+          >
             View All Events
           </Button>
         </div>

@@ -154,11 +154,8 @@ Color Palette: #f72585, #b5179e, #7209b7, #560bad, #480ca8, #3a0ca3, #3f37c9, #4
 @layer utilities {
   /* Typography Classes */
   .heading-xl {
-    @apply font-poppins font-bold text-4xl md:text-6xl leading-tight;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    @apply font-poppins font-bold text-4xl md:text-6xl leading-tight text-white;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
   }
 
   .heading-lg {

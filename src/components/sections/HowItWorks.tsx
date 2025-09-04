@@ -78,7 +78,10 @@ export function HowItWorks() {
             <p className="body-text text-white/90 mb-6">
               Join thousands of people who have found their community through Gatherly.
             </p>
-            <button className="w-full bg-white text-purple-deep font-poppins font-semibold py-3 px-6 rounded-xl hover-lift">
+            <button 
+              className="w-full bg-white text-purple-deep font-poppins font-semibold py-3 px-6 rounded-xl hover-lift transition-all duration-300 hover:bg-white/90"
+              onClick={() => window.location.href = '#signup'}
+            >
               Create Your Free Account
             </button>
           </div>
